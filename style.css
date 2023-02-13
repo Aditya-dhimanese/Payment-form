@@ -1,0 +1,96 @@
+.hero{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h1{
+    margin: 0;
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="submit"],
+textarea{
+    background-color: rgb(250, 253, 255);
+    width: 40%;
+    padding: 15px;
+    margin: 10px;
+}
+input[type="submit"]{
+    background-color: orange;
+    border: orange;
+    color: white;
+font-size: 18px;
+font-weight: 600;
+transition: 0.7s;
+cursor: pointer;
+
+}
+legend{
+    padding-right: 150px;
+}
+
+
+input[type="submit"]:hover{
+    background-color: rgb(0, 0, 255);
+    border:rgb(0, 0, 255);
+}
+
+
+select{
+    width: 42%;
+    padding: 15px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
+div.container{
+    background-color: aliceblue;
+    border: 1px solid rgb(233, 249, 254);
+
+}
+
+@media (max-width:768px){
+
+h2{
+    text-align: center;
+}
+    input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+
+textarea{
+    background-color: rgb(250, 253, 255);
+   width: 90%;
+    padding: 15px;
+    margin: 10px;
+}
+input[type="submit"]{
+    background-color: orange;
+    border: orange;
+    color: white;
+    width: 100%;
+font-size: 18px;
+font-weight: 600;
+transition: 0.7s;
+cursor: pointer;
+
+
+}
+    select{
+        width: 97%;
+    }
+}
